@@ -131,7 +131,7 @@ var x = 1;
 result = x == 1 ? true : false;
 ```
 
-### Operators {.row-span-2}
+### Operators ✅
 
 ```javascript
 true || false; // true
@@ -258,7 +258,7 @@ const rocketToMars = function () {
 };
 ```
 
-### Arrow Functions (ES6) {.row-span-2}
+### Arrow Functions (ES6) ✅
 
 #### With two arguments
 
@@ -847,7 +847,7 @@ const classElection = {
 console.log(classElection.place); // undefined
 ```
 
-### Mutable {.row-span-2}
+### Mutable ✅
 
 ```javascript
 const student = {
@@ -1182,7 +1182,7 @@ console.log(myMath.duplicate(5)); // 10
 
 ## JavaScript Promises {.cols-2}
 
-### Promise states {.row-span-2}
+### Promise states ✅
 
 ```javascript
 const promise = new Promise((resolve, reject) => {
@@ -1487,7 +1487,7 @@ req.onload = () => {
 req.send();
 ```
 
-### POST {.row-span-2}
+### POST ✅
 
 ```javascript
 const data = {
@@ -1505,7 +1505,7 @@ xhr.onload = () => {
 };
 ```
 
-### fetch api {.row-span-2}
+### fetch api ✅
 
 ```javascript
 fetch(url, {
