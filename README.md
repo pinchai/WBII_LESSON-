@@ -1,8 +1,8 @@
-### Introduction
+### ➥ Introduction
 
 JavaScript is a lightweight, interpreted programming language.
 
-### Console
+### ➥ Console
 
 ```javascript
 // => Hello world!
@@ -15,14 +15,14 @@ console.warn("hello %s", "CheatSheets.zip");
 console.error(new Error("Oops!"));
 ```
 
-### Numbers
+### ➥ Numbers
 
 ```javascript
 let amount = 6;
 let price = 4.99;
 ```
 
-### Variables
+### ➥ Variables
 
 ```javascript
 let x = null;
@@ -36,7 +36,7 @@ var a;
 console.log(a); // => undefined
 ```
 
-### Strings
+### ➥ Strings
 
 ```javascript
 let single = "Wheres my bandit hat?";
@@ -46,7 +46,7 @@ let double = "Wheres my bandit hat?";
 console.log(single.length);
 ```
 
-### Arithmetic Operators
+### ➥ Arithmetic Operators
 
 ```javascript
 5 + 5 = 10     // Addition
@@ -56,7 +56,7 @@ console.log(single.length);
 10 % 5 = 0     // Modulo
 ```
 
-### Comments
+### ➥ Comments
 
 ```javascript
 // This line will denote a comment
@@ -67,7 +67,7 @@ changed before deployment.
 */
 ```
 
-### Assignment Operators
+### ➥ Assignment Operators
 
 ```javascript
 let number = 100;
@@ -80,7 +80,7 @@ console.log(number);
 // => 120
 ```
 
-### String Interpolation
+### ➥ String Interpolation
 
 ```javascript
 let age = 7;
@@ -92,7 +92,7 @@ let age = 7;
 `Tommy is ${age} years old.`;
 ```
 
-### let Keyword
+### ➥ let Keyword
 
 ```javascript
 let count;
@@ -101,7 +101,7 @@ count = 10;
 console.log(count); // => 10
 ```
 
-### const Keyword
+### ➥ const Keyword
 
 ```javascript
 const numberOfColumns = 4;
@@ -112,7 +112,7 @@ numberOfColumns = 8;
 
 ## JavaScript Conditionals
 
-### if Statement
+### ➥ if Statement
 
 ```javascript
 const isMailSent = true;
@@ -122,7 +122,7 @@ if (isMailSent) {
 }
 ```
 
-### Ternary Operator
+### ➥ Ternary Operator
 
 ```javascript
 var x = 1;
@@ -131,7 +131,7 @@ var x = 1;
 result = x == 1 ? true : false;
 ```
 
-### Operators ✅
+### ➥ Operators ✅
 
 ```javascript
 true || false; // true
@@ -140,7 +140,7 @@ false || false; // false
 10 > 100 || 10 > 20; // false
 ```
 
-#### Logical Operator &&
+### ➥# Logical Operator &&
 
 ```javascript
 true && true; // true
@@ -149,7 +149,7 @@ true && false; // false
 4 === 4 && 3 > 1; // true
 ```
 
-#### Comparison Operators
+### ➥# Comparison Operators
 
 ```javascript
 1 > 3; // false
@@ -160,7 +160,7 @@ true && false; // false
 1 === "1"; // false
 ```
 
-#### Logical Operator !
+### ➥# Logical Operator !
 
 ```javascript
 let lateToWork = true;
@@ -170,7 +170,7 @@ let oppositeValue = !lateToWork;
 console.log(oppositeValue);
 ```
 
-#### Nullish coalescing operator ??
+### ➥# Nullish coalescing operator ??
 
 ```javascript
 null ?? "I win"; //  'I win'
@@ -181,7 +181,7 @@ false ?? "I lose"; //  false
 "" ?? "Damn it"; //  ''
 ```
 
-### else if
+### ➥ else if
 
 ```javascript
 const size = 10;
@@ -198,7 +198,7 @@ if (size > 100) {
 // Print: Small
 ```
 
-### switch Statement
+### ➥ switch Statement
 
 ```javascript
 const food = "salad";
@@ -215,7 +215,7 @@ switch (food) {
 }
 ```
 
-### == vs ===
+### ➥ == vs ===
 
 ```javascript
 0 == false; // true
@@ -232,7 +232,7 @@ The `==` just check the value, `===` check both the value and the type.
 
 ## JavaScript Functions
 
-### Functions
+### ➥ Functions
 
 ```javascript
 // Defining the function:
@@ -244,7 +244,7 @@ function sum(num1, num2) {
 sum(3, 6); // 9
 ```
 
-### Anonymous Functions
+### ➥ Anonymous Functions
 
 ```javascript
 // Named function
@@ -258,9 +258,9 @@ const rocketToMars = function () {
 };
 ```
 
-### Arrow Functions (ES6) ✅
+### ➥ Arrow Functions (ES6) ✅
 
-#### With two arguments
+### ➥# With two arguments
 
 ```javascript
 const sum = (param1, param2) => {
@@ -269,7 +269,7 @@ const sum = (param1, param2) => {
 console.log(sum(2, 5)); // => 7
 ```
 
-#### With no arguments
+### ➥# With no arguments
 
 ```javascript
 const printHello = () => {
@@ -278,7 +278,7 @@ const printHello = () => {
 printHello(); // => hello
 ```
 
-#### With a single argument
+### ➥# With a single argument
 
 ```javascript
 const checkWeight = (weight) => {
@@ -287,7 +287,7 @@ const checkWeight = (weight) => {
 checkWeight(25); // => Weight : 25
 ```
 
-#### Concise arrow functions
+### ➥# Concise arrow functions
 
 ```javascript
 const multiply = (a, b) => a * b;
@@ -298,7 +298,7 @@ console.log(multiply(2, 30));
 [Arrow function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions) available
 starting ES2015
 
-### return Keyword
+### ➥ return Keyword
 
 ```javascript
 // With return
@@ -312,7 +312,7 @@ function sum(num1, num2) {
 }
 ```
 
-### Calling Functions
+### ➥ Calling Functions
 
 ```javascript
 // Defining the function
@@ -324,7 +324,7 @@ function sum(num1, num2) {
 sum(2, 4); // 6
 ```
 
-### Function Expressions
+### ➥ Function Expressions
 
 ```javascript
 const dog = function () {
@@ -332,7 +332,7 @@ const dog = function () {
 };
 ```
 
-### Function Parameters
+### ➥ Function Parameters
 
 ```javascript
 // The parameter is name
@@ -341,7 +341,7 @@ function sayHello(name) {
 }
 ```
 
-### Function Declaration
+### ➥ Function Declaration
 
 ```javascript
 function add(num1, num2) {
@@ -351,7 +351,7 @@ function add(num1, num2) {
 
 ## JavaScript Scope
 
-### Scope
+### ➥ Scope
 
 ```javascript
 function myFunction() {
@@ -362,7 +362,7 @@ function myFunction() {
 // Code here can't use pizzaName
 ```
 
-### Block Scoped Variables
+### ➥ Block Scoped Variables
 
 ```javascript
 const isLoggedIn = true;
@@ -375,7 +375,7 @@ if (isLoggedIn == true) {
 console.log(statusMessage);
 ```
 
-### Global Variables
+### ➥ Global Variables
 
 ```javascript
 // Variable declared globally
@@ -388,7 +388,7 @@ function printColor() {
 printColor(); // => blue
 ```
 
-### let vs var
+### ➥ let vs var
 
 ```javascript
 for (let i = 0; i < 3; i++) {
@@ -409,7 +409,7 @@ for (var i = 0; i < 3; i++) {
 
 `var` is scoped to the nearest function block, and `let` is scoped to the nearest enclosing block.
 
-### Loops with closures
+### ➥ Loops with closures
 
 ```javascript{.wrap}
 // Prints 3 thrice, not what we meant.
@@ -431,7 +431,7 @@ The variable has its own copy using `let`, and the variable has shared copy usin
 
 ## JavaScript Arrays
 
-### Arrays
+### ➥ Arrays
 
 ```javascript
 const fruits = ["apple", "orange", "banana"];
@@ -440,7 +440,7 @@ const fruits = ["apple", "orange", "banana"];
 const data = [1, "chicken", false];
 ```
 
-### Property .length
+### ➥ Property .length
 
 ```javascript
 const numbers = [1, 2, 3, 4];
@@ -448,7 +448,7 @@ const numbers = [1, 2, 3, 4];
 numbers.length; // 4
 ```
 
-### Index
+### ➥ Index
 
 ```javascript
 // Accessing an array element
@@ -458,7 +458,7 @@ console.log(myArray[0]); // 100
 console.log(myArray[1]); // 200
 ```
 
-### Mutable chart
+### ➥ Mutable chart
 
 |           | add | remove | start | end |
 | :-------- | :-: | :----: | :---: | :-: |
@@ -469,7 +469,7 @@ console.log(myArray[1]); // 200
 
 {.show-header}
 
-### Array.push()
+### ➥ Array.push()
 
 ```javascript
 // Adding a single element:
@@ -483,7 +483,7 @@ numbers.push(3, 4, 5);
 
 Add items to the end and returns the new array length.
 
-### Array.pop()
+### ➥ Array.pop()
 
 ```javascript
 const fruits = ["apple", "orange", "banana"];
@@ -494,7 +494,7 @@ console.log(fruits); // ["apple", "orange"]
 
 Remove an item from the end and returns the removed item.
 
-### Array.shift()
+### ➥ Array.shift()
 
 ```javascript
 let cats = ["Bob", "Willy", "Mini"];
@@ -504,7 +504,7 @@ cats.shift(); // ['Willy', 'Mini']
 
 Remove an item from the beginning and returns the removed item.
 
-### Array.unshift()
+### ➥ Array.unshift()
 
 ```javascript
 let cats = ["Bob"];
@@ -518,7 +518,7 @@ cats.unshift("Puff", "George");
 
 Add items to the beginning and returns the new array length.
 
-### Array.concat()
+### ➥ Array.concat()
 
 ```javascript
 const numbers = [3, 2, 1];
@@ -535,7 +535,7 @@ If you want to avoid mutating your original array, you can use concat.
 
 ## JavaScript Set
 
-### Create Set
+### ➥ Create Set
 
 ```javascript
 // Empty Set Object
@@ -545,7 +545,7 @@ const emptySet = new Set();
 const setObj = new Set([1, true, "hi"]);
 ```
 
-### Add
+### ➥ Add
 
 ```javascript
 const emptySet = new Set();
@@ -557,7 +557,7 @@ emptySet.add(true); // 'a', 1, true
 emptySet.add("a"); // 'a', 1, true
 ```
 
-### Delete
+### ➥ Delete
 
 ```javascript
 const emptySet = new Set([1, true, "a"]);
@@ -568,7 +568,7 @@ emptySet.delete(true); // 1
 emptySet.delete(1); //
 ```
 
-### Has
+### ➥ Has
 
 ```javascript
 const setObj = new Set([1, true, "a"]);
@@ -579,7 +579,7 @@ setObj.has(1); // true
 setObj.has(false); // false
 ```
 
-### Clear
+### ➥ Clear
 
 ```javascript
 const setObj = new Set([1, true, "a"]);
@@ -589,7 +589,7 @@ console.log(setObj); // 1, true, 'a'
 setObj.clear(); //
 ```
 
-### Size
+### ➥ Size
 
 ```javascript
 const setObj = new Set([1, true, "a"]);
@@ -597,7 +597,7 @@ const setObj = new Set([1, true, "a"]);
 consoloe.log(setObj.size); // 3
 ```
 
-### ForEach
+### ➥ ForEach
 
 ```javascript
 const setObj = new Set([1, true, "a"]);
@@ -613,7 +613,7 @@ setObj.forEach(function (value) {
 
 ## JavaScript Loops
 
-### While Loop
+### ➥ While Loop
 
 ```javascript
 while (condition) {
@@ -627,7 +627,7 @@ while (i < 5) {
 }
 ```
 
-### Reverse Loop
+### ➥ Reverse Loop
 
 ```javascript
 const fruits = ["apple", "orange", "banana"];
@@ -641,7 +641,7 @@ for (let i = fruits.length - 1; i >= 0; i--) {
 // => 0. apple
 ```
 
-### Do…While Statement
+### ➥ Do…While Statement
 
 ```javascript
 x = 0;
@@ -655,7 +655,7 @@ do {
 // => 0 1 3 6 10
 ```
 
-### For Loop
+### ➥ For Loop
 
 ```javascript
 for (let i = 0; i < 4; i += 1) {
@@ -665,7 +665,7 @@ for (let i = 0; i < 4; i += 1) {
 // => 0, 1, 2, 3
 ```
 
-### Looping Through Arrays
+### ➥ Looping Through Arrays
 
 ```javascript
 for (let i = 0; i < array.length; i++) {
@@ -675,7 +675,7 @@ for (let i = 0; i < array.length; i++) {
 // => Every item in the array
 ```
 
-### Break
+### ➥ Break
 
 ```javascript
 for (let i = 0; i < 99; i += 1) {
@@ -687,7 +687,7 @@ for (let i = 0; i < 99; i += 1) {
 // => 0 1 2 3 4 5
 ```
 
-### Continue
+### ➥ Continue
 
 ```javascript
 for (i = 0; i < 10; i++) {
@@ -698,7 +698,7 @@ for (i = 0; i < 10; i++) {
 }
 ```
 
-### Nested
+### ➥ Nested
 
 ```javascript
 for (let i = 0; i < 2; i += 1) {
@@ -708,7 +708,7 @@ for (let i = 0; i < 2; i += 1) {
 }
 ```
 
-### for...in loop
+### ➥ for...in loop
 
 ```javascript
 const fruits = ["apple", "orange", "banana"];
@@ -721,7 +721,7 @@ for (let index in fruits) {
 // => 2
 ```
 
-### for...of loop
+### ➥ for...of loop
 
 ```javascript
 const fruits = ["apple", "orange", "banana"];
@@ -736,7 +736,7 @@ for (let fruit of fruits) {
 
 ## JavaScript Iterators {.cols-2}
 
-### Functions Assigned to Variables
+### ➥ Functions Assigned to Variables
 
 ```javascript
 let plusFive = (number) => {
@@ -750,7 +750,7 @@ plusFive(3); // 8
 f(9); // 14
 ```
 
-### Callback Functions
+### ➥ Callback Functions
 
 ```javascript
 const isEven = (n) => {
@@ -767,7 +767,7 @@ printMsg(isEven, 4);
 // => The number 4 is an even number: True.
 ```
 
-### Array.reduce()
+### ➥ Array.reduce()
 
 ```javascript
 const numbers = [1, 2, 3, 4];
@@ -779,7 +779,7 @@ const sum = numbers.reduce((accumulator, curVal) => {
 console.log(sum); // 10
 ```
 
-### Array.map()
+### ➥ Array.map()
 
 ```javascript
 const members = ["Taylor", "Donald", "Don", "Natasha", "Bobby"];
@@ -791,7 +791,7 @@ const announcements = members.map((member) => {
 console.log(announcements);
 ```
 
-### Array.forEach()
+### ➥ Array.forEach()
 
 ```javascript
 const numbers = [28, 77, 45, 99, 27];
@@ -801,7 +801,7 @@ numbers.forEach((number) => {
 });
 ```
 
-### Array.filter()
+### ➥ Array.filter()
 
 ```javascript
 const randomNumbers = [4, 11, 42, 14, 39];
@@ -812,7 +812,7 @@ const filteredArray = randomNumbers.filter((n) => {
 
 ## JavaScript Objects {.cols-2}
 
-### Accessing Properties
+### ➥ Accessing Properties
 
 ```javascript
 const apple = {
@@ -823,7 +823,7 @@ console.log(apple.color); // => Green
 console.log(apple.price.bulk); // => $3/kg
 ```
 
-### Naming Properties
+### ➥ Naming Properties
 
 ```javascript
 // Example of invalid key names
@@ -837,7 +837,7 @@ const trainSchedule = {
 }
 ```
 
-### Non-existent properties
+### ➥ Non-existent properties
 
 ```javascript
 const classElection = {
@@ -847,7 +847,7 @@ const classElection = {
 console.log(classElection.place); // undefined
 ```
 
-### Mutable ✅
+### ➥ Mutable ✅
 
 ```javascript
 const student = {
@@ -868,7 +868,7 @@ student = {};
 // TypeError: Assignment to constant variable.
 ```
 
-### Assignment shorthand syntax
+### ➥ Assignment shorthand syntax
 
 ```javascript
 const person = {
@@ -880,7 +880,7 @@ console.log(name); // 'Tom'
 console.log(age); // '22'
 ```
 
-### Delete operator
+### ➥ Delete operator
 
 ```javascript
 const person = {
@@ -902,7 +902,7 @@ console.log(person);
 */
 ```
 
-### Objects as arguments
+### ➥ Objects as arguments
 
 ```javascript
 const origNum = 8;
@@ -923,7 +923,7 @@ console.log(origNum);
 console.log(origObj.color);
 ```
 
-### Shorthand object creation
+### ➥ Shorthand object creation
 
 ```javascript
 const activity = "Surfing";
@@ -931,7 +931,7 @@ const beach = { activity };
 console.log(beach); // { activity: 'Surfing' }
 ```
 
-### this Keyword
+### ➥ this Keyword
 
 ```javascript
 const cat = {
@@ -944,7 +944,7 @@ const cat = {
 console.log(cat.whatName()); // => Pipey
 ```
 
-### Factory functions
+### ➥ Factory functions
 
 ```javascript
 // A factory function that accepts 'name',
@@ -962,7 +962,7 @@ const dogFactory = (name, age, breed) => {
 };
 ```
 
-### Object methods
+### ➥ Object methods
 
 ```javascript
 const engine = {
@@ -980,7 +980,7 @@ engine.start("noisily");
 engine.sputter();
 ```
 
-### Getters and setters
+### ➥ Getters and setters
 
 ```javascript
 const myCat = {
@@ -1002,7 +1002,7 @@ myCat.name = "Yankee";
 
 ## JavaScript Classes
 
-### Static Methods
+### ➥ Static Methods
 
 ```javascript
 class Dog {
@@ -1027,7 +1027,7 @@ myDog.introduce();
 Dog.bark();
 ```
 
-### Class
+### ➥ Class
 
 ```javascript
 class Song {
@@ -1045,7 +1045,7 @@ const mySong = new Song();
 mySong.play();
 ```
 
-### Class Constructor
+### ➥ Class Constructor
 
 ```javascript
 class Song {
@@ -1059,7 +1059,7 @@ const mySong = new Song("Bohemian Rhapsody", "Queen");
 console.log(mySong.title);
 ```
 
-### Class Methods
+### ➥ Class Methods
 
 ```javascript
 class Song {
@@ -1073,7 +1073,7 @@ class Song {
 }
 ```
 
-### extends
+### ➥ extends
 
 ```javascript
 // Parent class
@@ -1101,7 +1101,7 @@ const mySong = new Song({
 
 ## JavaScript Modules {.cols-2}
 
-### Export
+### ➥ Export
 
 ```javascript
 // myMath.js
@@ -1126,7 +1126,7 @@ function duplicate(x) {
 export { multiply, duplicate };
 ```
 
-### Import
+### ➥ Import
 
 ```javascript
 // main.js
@@ -1141,7 +1141,7 @@ console.log(duplicate(5)) // 10
 <script type="module" src="main.js"></script>
 ```
 
-### Export Module
+### ➥ Export Module
 
 ```javascript
 // myMath.js
@@ -1168,7 +1168,7 @@ module.exports = {
 };
 ```
 
-### Require Module
+### ➥ Require Module
 
 ```javascript
 // main.js
@@ -1182,7 +1182,7 @@ console.log(myMath.duplicate(5)); // 10
 
 ## JavaScript Promises {.cols-2}
 
-### Promise states ✅
+### ➥ Promise states ✅
 
 ```javascript
 const promise = new Promise((resolve, reject) => {
@@ -1201,7 +1201,7 @@ promise.then(
 );
 ```
 
-### Executor function
+### ➥ Executor function
 
 ```javascript
 const executorFn = (resolve, reject) => {
@@ -1211,7 +1211,7 @@ const executorFn = (resolve, reject) => {
 const promise = new Promise(executorFn);
 ```
 
-### setTimeout()
+### ➥ setTimeout()
 
 ```javascript
 const loginAlert = () => {
@@ -1221,7 +1221,7 @@ const loginAlert = () => {
 setTimeout(loginAlert, 6000);
 ```
 
-### .then() method
+### ➥ .then() method
 
 ```javascript
 const promise = new Promise((resolve, reject) => {
@@ -1240,7 +1240,7 @@ promise.then(
 );
 ```
 
-### Promise.catch()
+### ➥ Promise.catch()
 
 ```javascript
 const promise = new Promise((resolve, reject) => {
@@ -1258,7 +1258,7 @@ promise.catch((err) => {
 });
 ```
 
-### Promise.all()
+### ➥ Promise.all()
 
 ```javascript
 const promise1 = new Promise((resolve, reject) => {
@@ -1278,7 +1278,7 @@ Promise.all([promise1, promise2]).then((res) => {
 });
 ```
 
-### Avoiding nested Promise and .then()
+### ➥ Avoiding nested Promise and .then()
 
 ```javascript
 const promise = new Promise((resolve, reject) => {
@@ -1303,7 +1303,7 @@ const print = (val) => {
 promise.then(twoStars).then(oneDot).then(print);
 ```
 
-### Creating
+### ➥ Creating
 
 ```javascript
 const executorFn = (resolve, reject) => {
@@ -1313,7 +1313,7 @@ const executorFn = (resolve, reject) => {
 const promise = new Promise(executorFn);
 ```
 
-### Chaining multiple .then()
+### ➥ Chaining multiple .then()
 
 ```javascript
 const promise = new Promise((resolve) => setTimeout(() => resolve("dAlan"), 100));
@@ -1332,7 +1332,7 @@ promise
   );
 ```
 
-### Fake http Request with Promise
+### ➥ Fake http Request with Promise
 
 ```javascript
 const mock = (success, timeout = 1000) => {
@@ -1357,7 +1357,7 @@ const someEvent = async () => {
 
 ## JavaScript Async-Await {.cols-2}
 
-### Asynchronous
+### ➥ Asynchronous
 
 ```javascript
 function helloWorld() {
@@ -1384,7 +1384,7 @@ msg(); // Message: Hello World! <-- after 2 seconds
 msg1(); // Message: Hello World! <-- after 2 seconds
 ```
 
-### Resolving Promises
+### ➥ Resolving Promises
 
 ```javascript
 let pro1 = Promise.resolve(5);
@@ -1399,7 +1399,7 @@ Promise.all([pro1, pro2, pro3]).then(function (values) {
 // expected => Array [5, 44, "foo"]
 ```
 
-### Async Await Promises
+### ➥ Async Await Promises
 
 ```javascript
 function helloWorld() {
@@ -1418,7 +1418,7 @@ async function msg() {
 msg(); // Message: Hello World! <-- after 2 seconds
 ```
 
-### Error Handling
+### ➥ Error Handling
 
 ```javascript
 let json = '{ "age": 30 }'; // incomplete data
@@ -1431,7 +1431,7 @@ try {
 }
 ```
 
-### Aysnc await operator
+### ➥ Aysnc await operator
 
 ```javascript
 function helloWorld() {
@@ -1452,7 +1452,7 @@ msg(); // Message: Hello World! <-- after 2 seconds
 
 ## JavaScript Requests
 
-### JSON
+### ➥ JSON
 
 ```json
 const jsonObj = {
@@ -1464,7 +1464,7 @@ const jsonObj = {
 
 Also see: [JSON cheatsheet](/json)
 
-### XMLHttpRequest
+### ➥ XMLHttpRequest
 
 ```javascript
 const xhr = new XMLHttpRequest();
@@ -1474,7 +1474,7 @@ xhr.open("GET", "mysite.com/getjson");
 `XMLHttpRequest` is a browser-level API that enables the client to script data transfers via JavaScript, NOT part of the
 JavaScript language.
 
-### GET
+### ➥ GET
 
 ```javascript
 const req = new XMLHttpRequest();
@@ -1487,7 +1487,7 @@ req.onload = () => {
 req.send();
 ```
 
-### POST ✅
+### ➥ POST ✅
 
 ```javascript
 const data = {
@@ -1505,7 +1505,7 @@ xhr.onload = () => {
 };
 ```
 
-### fetch api ✅
+### ➥ fetch api ✅
 
 ```javascript
 fetch(url, {
@@ -1526,7 +1526,7 @@ fetch(url, {
 }
 ```
 
-### JSON Formatted
+### ➥ JSON Formatted
 
 ```javascript
 fetch("url-that-returns-JSON")
@@ -1536,7 +1536,7 @@ fetch("url-that-returns-JSON")
   });
 ```
 
-### promise url parameter fetch api
+### ➥ promise url parameter fetch api
 
 ```javascript
 fetch('url')
@@ -1549,7 +1549,7 @@ fetch('url')
 );
 ```
 
-### Fetch API Function
+### ➥ Fetch API Function
 
 ```javascript
 fetch("https://api-xxx.com/endpoint", {
@@ -1572,7 +1572,7 @@ fetch("https://api-xxx.com/endpoint", {
   });
 ```
 
-### async await syntax ✅
+### ➥ async await syntax ✅
 
 ```javascript
 const getSuggestions = async () => {
